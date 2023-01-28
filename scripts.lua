@@ -8,8 +8,8 @@ local Tab1 = Window:NewTab("Troll")
 
 -- Section 
 
-local _ = Tab1:NewSection("h")
+local owo = Tab1:NewSection("h")
 
-Section:NewTextBox("Speed", "Speed", function(s)
+owo:NewTextBox("Speed", "Speed", function(s)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
