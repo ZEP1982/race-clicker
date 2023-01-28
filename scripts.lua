@@ -10,4 +10,6 @@ local Tab1 = Window:NewTab("Troll")
 
 local _ = Tab1:NewSection("h")
 
-_:NewSlider
+Section:NewTextBox("Speed", "Speed", function(s)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
